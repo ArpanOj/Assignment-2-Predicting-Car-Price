@@ -151,3 +151,4 @@ pipeline.
 - [x] `App/` folder with `Dockerfile`, `docker-compose.yaml`, and `Code/` containing both
       models and the multi-page app
 - [x] Live deployment on `ml.brain.cs.ait.ac.th`
+https://web-st127304.ml.brain.cs.ait.ac.th
