@@ -1,17 +1,7 @@
 # A2: Predicting Car Price — From-Scratch Regression, Experiment Tracking, and Deployment
 
-Submission for **A2: Predicting Car Price** (AT82.03: Machine Learning). Builds on A1's
-car price prediction system with a linear regression model implemented from scratch
-(gradient descent, no sklearn model fitting), a 144-configuration hyperparameter sweep
-tracked with MLflow, and a second, independently deployable web page serving the new
-model alongside the original.
-
 **Live deployment:** https://web-st127304.ml.brain.cs.ait.ac.th/ (original model at `/`,
 new model at `/v2`)
-
-> This is a separate repository from my A1 submission — no A1 code is duplicated here
-> except the data cleaning/preprocessing pipeline, reused per the assignment's
-> instructions ("replace the modeling part with the class we have built above").
 
 ---
 
@@ -151,4 +141,3 @@ pipeline.
 - [x] `App/` folder with `Dockerfile`, `docker-compose.yaml`, and `Code/` containing both
       models and the multi-page app
 - [x] Live deployment on `ml.brain.cs.ait.ac.th`
-https://web-st127304.ml.brain.cs.ait.ac.th
